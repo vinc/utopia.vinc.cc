@@ -13,7 +13,7 @@ themselves into post-scarcity anarchist communities.
 
 ![Utopia](img/874.jpg)
 
-Here's a few examples of prompts for OpenJourney:
+Here are a few examples of prompts for OpenJourney:
 
 - mdjrny-v4 style offroad bus on a path in a cyberpunk village with lots of trees, digital painting, matte painting, concept art, greg rutkowski
 - mdjrny-v4 style bazaar with neon lights in the middle of a jungle, digital painting, matte painting, concept art, greg rutkowski
