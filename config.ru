@@ -1,3 +1,6 @@
+require "rack"
+require "rack/file"
+
 map "/img" do
   run Rack::File.new("img")
 end
