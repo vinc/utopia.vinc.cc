@@ -14,7 +14,7 @@ class Application
     images = Dir.glob("img/*.jpg").sort
     request = Rack::Request.new(env)
     page = (request.params["p"] || "1").to_i
-    per_page = 50
+    per_page = 48
     max_page = (images.count / per_page) + 1
     page = 1 if page < 1
     page = max_page if page > max_page
@@ -30,7 +30,7 @@ class Application
 
     a = (page - 1) * per_page
     b = (page + 0) * per_page
-    images[a..b].each do |img|
+    images[a...b].each do |img|
       content += "<img src=\"/#{img}\" alt=\"#{img}\" title=\"#{img}\" height=\"256\" width=\"256\" />"
     end
     content += "<footer>"
