@@ -4,10 +4,10 @@
 
 https://utopia.vinc.cc
 
-[ChatGPT][1] and [OpenJourney][2] were asked to halucinate for us a future from the year
-2300, two centuries after human population peaked, where half of the land was
-set aside for nature and humans became steward of the land after organizing
-themselves into post-scarcity anarchist communities.
+[ChatGPT][1] and [OpenJourney][2] were asked to halucinate for us a future from
+the year 2300, two centuries after human population peaked, where half of the
+land was set aside for nature and humans became steward of the land after
+organizing themselves into post-scarcity anarchist communities.
 
 ## Prompts
 
