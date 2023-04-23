@@ -1,0 +1,22 @@
+body {
+  background: #111;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: system-ui, sans-serif;
+  padding: 10px;
+  margin: 0 auto;
+  width: calc(3 * 256px + 6 * 10px);
+}
+img {
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer a,
+footer span {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
