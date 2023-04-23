@@ -16,6 +16,8 @@ class Application
     page = (request.params["p"] || "1").to_i
     per_page = 50
     max_page = (images.count / per_page) + 1
+    page = 1 if page < 1
+    page = max_page if page > max_page
 
     content = "<html>"
     content += "<head><title>Utopia 2300 (#{page} / #{max_page})</title><link rel=\"stylesheet\" href=\"css/utopia.css\"></head>"
